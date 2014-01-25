@@ -1,4 +1,4 @@
-int max(int &tab, int rozmiar)
+int max(int *tab, int rozmiar)
 {
 	int max = tab[0];
 	for(int i=1;i<rozmiar;i++)
